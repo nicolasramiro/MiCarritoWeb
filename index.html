@@ -3,25 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Mi Carrito de Compras</title>
 </head>
-<body>
-    <header>
-        <img src="./imagenes/logo.png" width="200" alt="">
-        <h1>BIENVENIDOS A PET'S FRIENDS</h1>
-        <P>Encabezado</P>
-        <nav>
-            <p>Inicio <a href="productos.html" target="_blank">Productos</a>  Contacto</p>
-        </nav>
-    </header>
-    <Main>
-        <HEADER>
 
-        </HEADER>
-        <P>Productos</P>
-    </Main>
-    <footer>
-        <p>Datos de Contacto</p>
+<body>
+    <!-- Encabezado de Pagina -->
+<header id="Encabezado"> 
+    <section id="#Encabezado"> 
+        <img src="./imagenes/logo.png" width="200" alt="">
+        </div>
+        
+        <h1>BIENVENIDOS A PET'S FRIENDS</h1>
+
+        <p class="parrafo-celeste"> ¡Bienvenidos a nuestra tienda! Aquí encontrarás todo lo que tu peludo y plumado amigo necesita para ser feliz y saludable. Ofrecemos una amplia selección de productos para perros, gatos y aves, desde juguetes divertidos hasta alimentos de calidad. Nuestro compromiso es brindarte solo lo mejor para tus mascotas. Explora y descubre lo que tenemos preparado para ellos, porque se lo merecen todo. ¡Gracias por visitarnos y hacer parte de nuestra comunidad amante de los animales! </p>
+       </section>
+    </header>
+
+    <!-- Menu -->
+     <section id="#Menu">
+        <div class="Menu">
+        <h2> <strong> Menu </strong></h2>
+    <nav>
+        <li><i class="fa-solid fa-house-chimney-user"></i> <a href="#inicio"> Inicio  </a>
+        <li><i class="fa-solid fa-house-chimney-user"></i><a href="#productos">Productos</a>  
+        <li><i class="fa-solid fa-house-chimney-user"></i> <a href="#contacto"> Contacto </a>
+    </nav></div>
+
+</section>
+    
+    <!-- Productos para... -->
+     <h1> Elegi lo mejor para tu compañero </h1>
+     <section id="productos">
+        <div class="tarjetas"> 
+            <div class="productosIndividual"> 
+            <img src="imagenes/perro.jpg" width="150" alt="">
+            <h2> Amigos Perrunos </h2>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam nulla eum enim, distinctio commodi quidem sunt. Eligendi modi voluptatibus quis est, nulla nemo quaerat voluptate veniam a, aliquid suscipit molestiae.</p>
+        </div>
+
+        <div class="productosIndividual"> 
+            <img src="imagenes/gato.jpg" width="150" alt="">
+            <h2> Productos Gatunos </h2>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam nulla eum enim, distinctio commodi quidem sunt. Eligendi modi voluptatibus quis est, nulla nemo quaerat voluptate veniam a, aliquid suscipit molestiae.</p>
+        </div>
+
+        <div class="productosIndividual"> 
+            <img src="imagenes/pajaro.jpg" width="150" alt="">
+            <h2> Amigos Voladores </h2>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam nulla eum enim, distinctio commodi quidem sunt. Eligendi modi voluptatibus quis est, nulla nemo quaerat voluptate veniam a, aliquid suscipit molestiae.</p>
+        </div>
+     </div>
+        
+
+     </section>
+
+     <!-- Seccion de Video -->
+     <section>
+        <section id="#video"> 
+        <h2> Ellos, siempre ellos </h2>
+        <video controls loading="lazy">
+        <source src="videos/gato y perro jugando.mp4"> 
+        <p>Vitalidad y compañerismo siempre</p>
+    </section>
+    </video>
+        
+
+    <!-- Formularios -->
+         <section> 
+            <p> <strong>Completa tus datos para que te podamos contactar</strong> </p>
+            <form action="https://formspree.io/f/xrbgpjqd" method="get">
+        <label for="nombre">Nombre:
+       <input name="nombre" id="nombre" placeholder="Ingresa tu nombre">
+    </label>
+    <label for="Apellido">Apellido:
+        <input name="Apellido" id="Apellido" placeholder="Ingresa tu Apellido">
+     </label>
+     <label for="">Email
+        <input name="email" type="email" placeholder="email">
+     </label>
+     <input type="submit" value="Enviar datos">
+     
+     <!-- Contacto -->
+     <section id="contacto"> 
+        <div class="mapa">
+        <h1>¡Podes encontrarnos aca!</h1>
+        <iframe 
+        src="https://www.google.com.ar/maps/place/Cochabamba+1234,+C1150AAV+Cdad.+Aut%C3%B3noma+de+Buenos+Aires/@-34.6237064,-58.3834447,17z/data=!4m5!3m4!1s0x95bccb25f2318e6d:0x517dfd0a76247373!8m2!3d-34.6240507!4d-58.3834125?entry=ttu&g_ep=EgoyMDI0MTAyOS4wIKXMDSoASAFQAw%3D%3D" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+        <p><strong>Acercate a nuestro local, llamanos o mandanos un WhatsApp</strong>
+     <p> Direccion: Cochabamba 1234, CABA - Telefono: 11-5555-6666</p></section>
+     
+     </div>
+        
+     
+    </form>
     </footer>
+    
 </body>
 </html>
