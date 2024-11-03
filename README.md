@@ -1,0 +1,1 @@
+Este sitio web es un carrito de compras de elementos para mascotas, tanto como ropa y utiles para limpieza de los mismos. Nos especializamos en Perros, Gatos y Aves.
