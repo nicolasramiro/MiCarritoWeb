@@ -1,0 +1,49 @@
+h1{
+    color: green
+}
+
+h1{
+    background-color: yellow;
+}
+
+p{
+    color: black;
+}
+
+.parrafo-celeste {
+    color: rgb(231, 7, 7);
+}
+
+a{
+    text-decoration: none;
+}
+
+.productosIndividual {
+    background-color: orchid;
+    margin-top: 5px;
+    border: 15px;
+    padding: 15px;
+    flex-wrap: nowrap;
+}
+
+.Encabezado {
+    background-color: bisque;
+}
+
+.Menu {
+    background-color: bisque;
+}
+
+header {
+    background-color: bisque;}
+
+body{
+    margin: 20px;
+}
+
+.tarjetas {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20 px;
+    justify-content: space-between;
+}
